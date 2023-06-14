@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_DataTrigger_02"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="224" Width="207">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
         <CheckBox Name="cbSample" Content="Hello, world?" />
         <RadioButton>Off</RadioButton>

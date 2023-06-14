@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_EventTriggers_04"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="267" Width="287">
     <Grid>
         <Border Width="100" Height="100" BorderBrush="Green">
             <Border.Style>
                 <Style TargetType="Border">
                     <Setter Property="Background" Value="LightGreen"></Setter>
-                    
+
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Trigger.EnterActions>
